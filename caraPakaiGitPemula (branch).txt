@@ -1,0 +1,21 @@
+# 1. Clone project (sekali aja di awal)
+git clone <url-repo>
+cd <nama-folder-repo>
+
+# 2. Bikin branch baru dan otomatis pindah ke branch tu
+git checkout -b namaBranch
+
+# 3. Cek status (opsional, liat file yg berubah)
+git status
+
+# 4. Tambahin semua perubahan yang dilakuin
+git add .
+
+# 5. Commit perubahan
+git commit -m "pesan singkat tentang kerjaan"
+
+# 6. Push pertama kali branch baru
+git push -u origin namaBranch
+
+# 7. Push selanjutnya (lanjutan kerja)
+git push
