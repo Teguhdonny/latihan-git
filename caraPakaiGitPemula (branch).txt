@@ -1,21 +1,41 @@
-# 1. Clone project (sekali aja di awal)
-git clone <url-repo>
-cd <nama-folder-repo>
+# 1. Download dan Install git dan buat akun di github
 
-# 2. Bikin branch baru dan otomatis pindah ke branch tu
+# 2. Setting Konfigurasi
+git config --global user.name "usernam github lu"
+git config --global user.email "email github lu"
+
+# 3. Generate PAT (opsional), biar gampang langsung aja sign in github di vscode
+masuk dan login ke Github.com -> klik gambar profile (pojok kanan atas) -> Settings -> Scroll ke bawah cari Developer Settings -> 
+Personal Access Tokens -> Token ( classic ) -> Generate new token -> centang repo & workflow -> simpan token nya
+
+# 4. Gabung sebagai collaborator di repo tertentu
+
+# 5. Clone project 
+git clone <url-repo>
+cd <nama-folder-repo> / Buka folder hasil clone di vs code
+
+# 6. Bikin branch baru dan otomatis pindah ke branch tu
 git checkout -b namaBranch
 
-# 3. Cek status (opsional, liat file yg berubah)
+# 7. Lakukan perubahan ( entah perubahan di file yang sudah ada atau buat file baru )
+
+# 8. Cek status (opsional, liat file yg berubah)
 git status
 
-# 4. Tambahin semua perubahan yang dilakuin
+# 9. Tambahin semua perubahan yang dilakuin
 git add .
 
-# 5. Commit perubahan
+# 10. Commit perubahan
 git commit -m "pesan singkat tentang kerjaan"
 
-# 6. Push pertama kali branch baru
+# 11. Push pertama kali di branch baru
 git push -u origin namaBranch
 
-# 7. Push selanjutnya (lanjutan kerja)
+# 12. Push untuk perubahan di branch yang sama dan sebelumnya sudah pernah ada puh di branch tersebut (lanjutan kerja)
 git push
+
+# Buat pull request baru ( kalau baru bikin branch dan jalanin git push origin namaBranch )
+buka github -> klik gambar profile -> Settings ->repositories -> cari nama repo nya atau ketik git remote -v di terminal buat check nama reponya ->
+buka reponya di github, cek di bagian pull request ada banner " Compare and pull request ", klik itu -> create pull request
+
+# Buat pull request di branch yang sebelumnya sudah jalanin pul request
