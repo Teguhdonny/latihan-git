@@ -41,7 +41,7 @@ buka reponya di github, cek di bagian pull request ada banner " Compare and pull
 kalau ga muncul bannernya, cari manual
 Akses repo tujuan -> klik new pull request -> bagian compare: , cari nama branchnya -> klik Create pull request
 
-# Untuk pull selanjutnya di branch yang sama alurnya sama yang beda cara pushbya, bukan pake git push origin namaBranch lagi, cukup ketik git push
+# Untuk pull selanjutnya di branch yang sama alurnya sama yang beda cara pushnya, bukan pake git push origin namaBranch lagi, cukup ketik git push
 
 # 14 Command tambahan
 - git branch ( Buat check nama branch yang udah dibuat di lokal / yang lu buat di vscode )
