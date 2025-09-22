@@ -1,8 +1,9 @@
 # 1. Download dan Install git dan buat akun di github
 
-# 2. Setting Konfigurasi
+# 2. Setting Konfigurasi di termina; / cmd
 git config --global user.name "username github lu"
 git config --global user.email "email github lu"
+--Pastiin git sudah terinstall dan terregistrasi di path, cara checknya jalanin git --version di cmd, kalau  muncul berarti gitnya ada
 
 # 3. Generate PAT (opsional), biar gampang langsung aja sign in github di vscode
 masuk dan login ke Github.com -> klik gambar profile (pojok kanan atas) -> Settings -> Scroll ke bawah cari Developer Settings -> 
