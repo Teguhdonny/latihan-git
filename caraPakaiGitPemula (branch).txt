@@ -46,4 +46,4 @@ Akses repo tujuan -> klik new pull request -> bagian compare: , cari nama branch
 # 14 Command tambahan
 - git branch ( Buat check nama branch yang udah dibuat di lokal / yang lu buat di vscode )
 - git branch -r ( Buat check nama branch yang ada di server / repo)
-// Hijau / ada tanda * berarti sedang dipakai / checkout
+// Hijau / ada tanda * berarti sedang lu pakai / checkout
