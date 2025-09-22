@@ -1,7 +1,7 @@
 # 1. Download dan Install git dan buat akun di github
 
 # 2. Setting Konfigurasi
-git config --global user.name "usernam github lu"
+git config --global user.name "username github lu"
 git config --global user.email "email github lu"
 
 # 3. Generate PAT (opsional), biar gampang langsung aja sign in github di vscode
