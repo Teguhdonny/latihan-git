@@ -34,9 +34,16 @@ git push -u origin namaBranch
 # 12. Push untuk perubahan di branch yang sama dan sebelumnya sudah pernah ada puh di branch tersebut (lanjutan kerja)
 git push
 
-# Buat pull request baru ( kalau baru bikin branch dan jalanin git push origin namaBranch )
+# 13. Buat pull request baru ( kalau baru bikin branch dan jalanin git push origin namaBranch )
 buka github -> klik gambar profile -> Settings ->repositories -> cari nama repo nya atau ketik git remote -v di terminal buat check nama reponya ->
 buka reponya di github, cek di bagian pull request ada banner " Compare and pull request ", klik itu -> create pull request
 
 kalau ga muncul bannernya, cari manual
 Akses repo tujuan -> klik new pull request -> bagian compare: , cari nama branchnya -> klik Create pull request
+
+# Untuk pull selanjutnya di branch yang sama alurnya sama yang beda cara pushbya, bukan pake git push origin namaBranch lagi, cukup ketik git push
+
+# 14 Command tambahan
+- git branch ( Buat check nama branch yang duah dibuat di lokal / yang lu buat di vscode )
+- git branch -r ( Buat check nama branch yang ada di server / repo)
+// Hijau / ada tanda * berarti sedang dipakai / checkout
