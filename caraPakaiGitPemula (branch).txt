@@ -38,4 +38,5 @@ git push
 buka github -> klik gambar profile -> Settings ->repositories -> cari nama repo nya atau ketik git remote -v di terminal buat check nama reponya ->
 buka reponya di github, cek di bagian pull request ada banner " Compare and pull request ", klik itu -> create pull request
 
-# Buat pull request di branch yang sebelumnya sudah jalanin pul request
+kalau ga muncul bannernya, cari manual
+Akses repo tujuan -> klik new pull request -> bagian compare: , cari nama branchnya -> klik Create pull request
