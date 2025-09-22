@@ -31,7 +31,7 @@ git commit -m "pesan singkat tentang kerjaan"
 # 11. Push pertama kali di branch baru
 git push -u origin namaBranch
 
-# 12. Push untuk perubahan di branch yang sama dan sebelumnya sudah pernah ada puh di branch tersebut (lanjutan kerja)
+# 12. Push untuk perubahan di branch yang sama dan sebelumnya sudah pernah dilakuin push origin di branch tersebut (lanjutan kerja)
 git push
 
 # 13. Buat pull request baru ( kalau baru bikin branch dan jalanin git push origin namaBranch )
